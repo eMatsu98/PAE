@@ -1,0 +1,7 @@
+<h3>{{noticia.title}}</h3>
+<div class = "grid">
+    <img [src]="noticia.urlToImage" alt="">
+    <p>{{noticia.description}}</p>
+</div>
+<br>
+<button *ngIf="noticia.urlToImage" (click)="clearNoticia()">Clear</button>

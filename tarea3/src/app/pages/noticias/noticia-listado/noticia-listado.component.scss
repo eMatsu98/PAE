@@ -1,0 +1,21 @@
+a {
+    color: #91dcff;
+    cursor: pointer;
+    &:visited{
+        color: #cd90ff;
+    }
+    &:hover{
+        color: #86b1ff;
+    }
+    &:active{
+        color: #ef75ff;
+    }
+}
+
+
+.active {
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 15px;
+}

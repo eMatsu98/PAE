@@ -1,0 +1,25 @@
+h3{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+img{
+    width: 100%;
+    border-radius: 6px;
+    grid-column: span 6;
+    margin: auto;
+}
+
+p{
+    display: inline;
+    grid-column: 7 / span 8;
+    background-color: rgb(43, 43, 43);
+    padding: 0 10px;
+    border-radius: 6px;
+
+}
