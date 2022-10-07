@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #383838;
+}
+
+a {
+    color: #a8e0fa;
+    cursor: pointer;
+    &:visited{
+        color: #c79bee;
+    }
+    &:hover{
+        cursor: pointer;
+        color: #8cb4ff;
+    }
+    &:active{
+        color: #f290ff;
+    }
+}
